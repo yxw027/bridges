@@ -66,36 +66,48 @@
                         <li class="sidebar-title">
                             Maintain
                         </li>
-                        <li>
-                            <a href="#"><i class="fas fa-users"></i>User<i class="material-icons has-sub-menu">add</i></a>
-                            <ul class="sub-menu">
-                                <li>
-                                    <a href="#" th:class="${n == 4} ? 'active'">User List</a>
-                                </li>
-                                <li>
-                                    <a href="#" th:class="${n == 5} ? 'active'">Role List</a>
-                                </li>
-                                <li>
-                                    <a href="#" th:class="${n == 6} ? 'active'">Permission List</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fas fa-road"></i>Bridge<i class="material-icons has-sub-menu">add</i></a>
-                            <ul class="sub-menu">
-                                <li>
-                                    <a href="#" th:class="${n == 7} ? 'active'">Bridge List</a>
-                                </li>
-                                <li>
-                                    <a href="#" th:class="${n == 8} ? 'active'">Sensor List</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li>
+                        <li th:class="${n == 4} ? 'active-page'">
                             <a href="#"><i class="fas fa-exclamation-triangle"></i>Alert<i class="material-icons has-sub-menu">add</i></a>
                             <ul class="sub-menu">
                                 <li>
-                                    <a href="#" th:class="${n == 9} ? 'active'">Alert List</a>
+                                    <a href="#" th:href="@{/alertlist}" th:class="${n == 4} ? 'active'">Alert List</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li th:class="${n >= 5 && n <= 8} ? 'active-page'">
+                            <a href="#"><i class="fas fa-road"></i>Bridge<i class="material-icons has-sub-menu">add</i></a>
+                            <ul class="sub-menu">
+                                <li>
+                                    <a href="#" th:href="@{/bridgelist}" th:class="${n == 5} ? 'active'">Bridge List</a>
+                                </li>
+                                <li>
+                                    <a href="#" th:href="@{/sensorlist}" th:class="${n == 6} ? 'active'">Sensor List</a>
+                                </li>
+                                <li>
+                                    <a href="#" th:class="${n == 7} ? 'active'">Add Bridge</a>
+                                </li>
+                                <li>
+                                    <a href="#" th:class="${n == 8} ? 'active'">Add Sensor</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li th:class="${n >= 9 && n <= 13} ? 'active-page'">
+                            <a href="#"><i class="fas fa-users"></i>User<i class="material-icons has-sub-menu">add</i></a>
+                            <ul class="sub-menu">
+                                <li>
+                                    <a href="#" th:href="@{/userlist}" th:class="${n == 9} ? 'active'">User List</a>
+                                </li>
+                                <li>
+                                    <a href="#" th:href="@{/rolelist}" th:class="${n == 10} ? 'active'">Role List</a>
+                                </li>
+                                <li>
+                                    <a href="#" th:href="@{/permissionlist}" th:class="${n == 11} ? 'active'">Permission List</a>
+                                </li>
+                                <li>
+                                    <a href="#" th:class="${n == 12} ? 'active'">Add User</a>
+                                </li>
+                                <li>
+                                    <a href="#" th:class="${n == 13} ? 'active'">Add Role</a>
                                 </li>
                             </ul>
                         </li>

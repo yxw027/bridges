@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+    <head th:replace="_fragment :: head(~{::title})">
+        <title>Bridges | Permission List</title>
+    </head>
+
+    <body>
+
+        <div th:replace="_fragment :: loader" class="loader"></div>
+
+        <div class="connect-container align-content-stretch d-flex flex-wrap">
+            <nav th:replace="_fragment :: menu(11)"  class="page-sidebar"></nav>
+            <div class="page-container">
+                <div th:replace="_fragment :: header" class="page-header"></div>
+
+                <!--核心内容-->
+                <div class="page-content">
+                    <div class="page-info">
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="#">User</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">Permission List</li>
+                            </ol>
+                        </nav>
+                    </div>
+                    <div class="main-wrapper">
+                        <div class="row">
+                            <div class="col-xl">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h5 class="card-title">权限列表</h5>
+                                        <table class="table">
+                                            <thead class="thead-dark">
+                                                <tr>
+                                                    <th scope="col">#</th>
+                                                    <th scope="col">First</th>
+                                                    <th scope="col">Last</th>
+                                                    <th scope="col">Handle</th>
+                                                    <th scope="col">Operation</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <th scope="row">1</th>
+                                                    <td>Mark</td>
+                                                    <td>Otto</td>
+                                                    <td>@mdo</td>
+                                                    <td>
+                                                        <button type="button" class="btn btn-success btn-sm">Edit</button>
+                                                        <button type="button" class="btn btn-danger btn-sm">Del</button>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">2</th>
+                                                    <td>Mark</td>
+                                                    <td>Otto</td>
+                                                    <td>@mdo</td>
+                                                    <td>
+                                                        <button type="button" class="btn btn-success btn-sm">Edit</button>
+                                                        <button type="button" class="btn btn-danger btn-sm">Del</button>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>       
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div th:replace="_fragment :: footer"></div>
+            </div>
+        </div>
+        
+        <!-- Javascripts -->
+        <th:block th:replace="_fragment :: script"></th:block>
+    </body>
+</html>
