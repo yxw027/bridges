@@ -19,59 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d8a2bcb-5cdd-470f-812e-6966d9514342" name="Default Changelist" comment="copy entity from old project.">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_nekohtml_nekohtml_1_9_22.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xerces_xercesImpl_2_11_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_4_01.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hust/be/controller/IndexController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hust/be/controller/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hust/be/controller/TestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hust/be/dao/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hust/be/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hust/be/serviceImpl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hust/be/utils/MD5Utils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/admin2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/admin3.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/admin4.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/connect.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/connect.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/custom.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/dark_theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/404.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/404_blue.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/404_green.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/404_purple.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/500.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/500_blue.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/500_green.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/500_purple.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/avatars/profile-image-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/avatars/profile-image-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/avatars/profile-image-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/avatars/profile-image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/card_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/card_2.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/login.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/login_blue.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/login_green.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/login_purple.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/post-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/post2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/profile-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/themes/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/themes/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/connect.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/connect.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/pages/blockui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/pages/calendar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/pages/charts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/pages/dashboard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/pages/datatables.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/pages/mailbox.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/pages/select2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/pages/session.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/pages/todo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/pages/tree.js" afterDir="false" />
+    <list default="true" id="8d8a2bcb-5cdd-470f-812e-6966d9514342" name="Default Changelist" comment="thymeleaf模板定制页面，用户登录注销，页面跳转。">
       <change afterPath="$PROJECT_DIR$/src/main/resources/static/plugins/DataTables/DataTables-1.10.20/css/dataTables.bootstrap.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/resources/static/plugins/DataTables/DataTables-1.10.20/css/dataTables.bootstrap.min.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/resources/static/plugins/DataTables/DataTables-1.10.20/css/dataTables.bootstrap4.css" afterDir="false" />
@@ -2356,54 +2304,8 @@
       <change afterPath="$PROJECT_DIR$/src/main/resources/static/plugins/treejs/themes/default/style.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/resources/static/plugins/treejs/themes/default/style.min.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/resources/static/plugins/treejs/themes/default/throbber.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/_fragment.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bridges.iml" beforeDir="false" afterPath="$PROJECT_DIR$/bridges.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hust/be/entity/Bridge.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hust/be/entity/Permission.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hust/be/entity/Role.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hust/be/entity/Sensor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hust/be/entity/SensorRecord.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hust/be/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hust/be/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hust/be/entity/WarnRecord.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin4/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/error/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin4/500.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/error/500.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin4/calendar.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/demo/calendar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin4/charts.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/charts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin4/extended-blockui.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/demo/extended-blockui.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin4/extended-datatables.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/demo/extended-datatables.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin4/extended-select2.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/demo/extended-select2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin4/extended-session.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/demo/extended-session.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin4/extended-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/demo/extended-tree.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin4/file-manager.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/demo/file-manager.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin4/forms.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/demo/forms.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin4/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin4/mailbox.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/demo/mailbox.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin4/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/demo/profile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin4/sign-in.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/sign-in.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin4/sign-up.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/demo/sign-up.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin4/styles-code.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/demo/styles-code.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin4/styles-icons.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/demo/styles-icons.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin4/styles-tables.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/demo/styles-tables.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin4/styles-typography.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/demo/styles-typography.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin4/todo.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/demo/todo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin4/ui-alerts.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/demo/ui-alerts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin4/ui-badge.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/demo/ui-badge.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin4/ui-breadcrumb.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/demo/ui-breadcrumb.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin4/ui-buttons.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/demo/ui-buttons.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin4/ui-card.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/demo/ui-card.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin4/ui-collapse.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/demo/ui-collapse.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin4/ui-dropdowns.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/demo/ui-dropdowns.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin4/ui-list-group.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/demo/ui-list-group.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin4/ui-modal.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/demo/ui-modal.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin4/ui-pagination.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/demo/ui-pagination.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin4/ui-popovers.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/demo/ui-popovers.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin4/ui-progress.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/demo/ui-progress.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin4/ui-spinners.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/demo/ui-spinners.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin4/ui-toast.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/demo/ui-toast.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin4/ui-tooltips.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/demo/ui-tooltips.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -2458,7 +2360,7 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -2512,7 +2414,8 @@
       <workItem from="1594916750888" duration="1176000" />
       <workItem from="1594996728483" duration="3054000" />
       <workItem from="1595004764802" duration="303000" />
-      <workItem from="1595034407592" duration="16917000" />
+      <workItem from="1595034407592" duration="17467000" />
+      <workItem from="1595062495263" duration="195000" />
     </task>
     <task id="LOCAL-00001" summary="copy entity from old project.">
       <created>1594918225681</created>
@@ -2528,7 +2431,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595003691425</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="thymeleaf模板定制页面，用户登录注销，页面跳转。">
+      <created>1595059253867</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1595059253867</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -2549,7 +2459,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="copy entity from old project." />
     <MESSAGE value="add connect template." />
-    <option name="LAST_COMMIT_MESSAGE" value="add connect template." />
+    <MESSAGE value="thymeleaf模板定制页面，用户登录注销，页面跳转。" />
+    <option name="LAST_COMMIT_MESSAGE" value="thymeleaf模板定制页面，用户登录注销，页面跳转。" />
   </component>
   <component name="WindowStateProjectService">
     <state x="533" y="155" key="#com.intellij.ide.util.MemberChooser" timestamp="1595053474033">
@@ -2564,54 +2475,58 @@
       <screen x="0" y="23" width="1440" height="838" />
     </state>
     <state x="458" y="196" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.838@0.23.1440.838" timestamp="1595053589536" />
-    <state x="0" y="23" width="1440" height="838" key="CommitChangelistDialog2" timestamp="1595003687590">
+    <state x="0" y="23" width="1440" height="838" key="CommitChangelistDialog2" timestamp="1595059249864">
       <screen x="0" y="23" width="1440" height="838" />
     </state>
-    <state x="0" y="23" width="1440" height="838" key="CommitChangelistDialog2/0.23.1440.838@0.23.1440.838" timestamp="1595003687590" />
-    <state width="1398" height="411" key="GridCell.Tab.0.bottom" timestamp="1595058438825">
+    <state x="0" y="23" width="1440" height="838" key="CommitChangelistDialog2/0.23.1440.838@0.23.1440.838" timestamp="1595059249864" />
+    <state width="1398" height="411" key="GridCell.Tab.0.bottom" timestamp="1595058948947">
       <screen x="0" y="23" width="1440" height="838" />
     </state>
-    <state width="1398" height="411" key="GridCell.Tab.0.bottom/0.23.1440.838@0.23.1440.838" timestamp="1595058438825" />
-    <state width="1398" height="411" key="GridCell.Tab.0.center" timestamp="1595058438823">
+    <state width="1398" height="411" key="GridCell.Tab.0.bottom/0.23.1440.838@0.23.1440.838" timestamp="1595058948947" />
+    <state width="1398" height="411" key="GridCell.Tab.0.center" timestamp="1595058948946">
       <screen x="0" y="23" width="1440" height="838" />
     </state>
-    <state width="1398" height="411" key="GridCell.Tab.0.center/0.23.1440.838@0.23.1440.838" timestamp="1595058438823" />
-    <state width="1398" height="411" key="GridCell.Tab.0.left" timestamp="1595058438822">
+    <state width="1398" height="411" key="GridCell.Tab.0.center/0.23.1440.838@0.23.1440.838" timestamp="1595058948945" />
+    <state width="1398" height="411" key="GridCell.Tab.0.left" timestamp="1595058948945">
       <screen x="0" y="23" width="1440" height="838" />
     </state>
-    <state width="1398" height="411" key="GridCell.Tab.0.left/0.23.1440.838@0.23.1440.838" timestamp="1595058438822" />
-    <state width="1398" height="411" key="GridCell.Tab.0.right" timestamp="1595058438824">
+    <state width="1398" height="411" key="GridCell.Tab.0.left/0.23.1440.838@0.23.1440.838" timestamp="1595058948945" />
+    <state width="1398" height="411" key="GridCell.Tab.0.right" timestamp="1595058948947">
       <screen x="0" y="23" width="1440" height="838" />
     </state>
-    <state width="1398" height="411" key="GridCell.Tab.0.right/0.23.1440.838@0.23.1440.838" timestamp="1595058438824" />
-    <state width="1398" height="411" key="GridCell.Tab.1.bottom" timestamp="1595058438827">
+    <state width="1398" height="411" key="GridCell.Tab.0.right/0.23.1440.838@0.23.1440.838" timestamp="1595058948947" />
+    <state width="1398" height="411" key="GridCell.Tab.1.bottom" timestamp="1595058948949">
       <screen x="0" y="23" width="1440" height="838" />
     </state>
-    <state width="1398" height="411" key="GridCell.Tab.1.bottom/0.23.1440.838@0.23.1440.838" timestamp="1595058438827" />
-    <state width="1398" height="411" key="GridCell.Tab.1.center" timestamp="1595058438826">
+    <state width="1398" height="411" key="GridCell.Tab.1.bottom/0.23.1440.838@0.23.1440.838" timestamp="1595058948949" />
+    <state width="1398" height="411" key="GridCell.Tab.1.center" timestamp="1595058948948">
       <screen x="0" y="23" width="1440" height="838" />
     </state>
-    <state width="1398" height="411" key="GridCell.Tab.1.center/0.23.1440.838@0.23.1440.838" timestamp="1595058438826" />
-    <state width="1398" height="411" key="GridCell.Tab.1.left" timestamp="1595058438826">
+    <state width="1398" height="411" key="GridCell.Tab.1.center/0.23.1440.838@0.23.1440.838" timestamp="1595058948948" />
+    <state width="1398" height="411" key="GridCell.Tab.1.left" timestamp="1595058948948">
       <screen x="0" y="23" width="1440" height="838" />
     </state>
-    <state width="1398" height="411" key="GridCell.Tab.1.left/0.23.1440.838@0.23.1440.838" timestamp="1595058438826" />
-    <state width="1398" height="411" key="GridCell.Tab.1.right" timestamp="1595058438827">
+    <state width="1398" height="411" key="GridCell.Tab.1.left/0.23.1440.838@0.23.1440.838" timestamp="1595058948948" />
+    <state width="1398" height="411" key="GridCell.Tab.1.right" timestamp="1595058948948">
       <screen x="0" y="23" width="1440" height="838" />
     </state>
-    <state width="1398" height="411" key="GridCell.Tab.1.right/0.23.1440.838@0.23.1440.838" timestamp="1595058438827" />
+    <state width="1398" height="411" key="GridCell.Tab.1.right/0.23.1440.838@0.23.1440.838" timestamp="1595058948948" />
     <state x="258" y="104" key="Maven.ArtifactSearchDialog" timestamp="1594917865433">
       <screen x="0" y="23" width="1440" height="838" />
     </state>
     <state x="258" y="104" key="Maven.ArtifactSearchDialog/0.23.1440.838@0.23.1440.838" timestamp="1594917865433" />
+    <state x="221" y="81" key="SettingsEditor" timestamp="1595062687155">
+      <screen x="0" y="23" width="1440" height="838" />
+    </state>
+    <state x="221" y="81" key="SettingsEditor/0.23.1440.838@0.23.1440.838" timestamp="1595062687155" />
     <state x="320" y="182" key="Vcs.Push.Dialog.v2" timestamp="1594918229181">
       <screen x="0" y="23" width="1440" height="838" />
     </state>
     <state x="320" y="182" key="Vcs.Push.Dialog.v2/0.23.1440.838@0.23.1440.838" timestamp="1594918229181" />
-    <state x="549" y="183" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1595003535995">
+    <state x="549" y="183" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1595058850047">
       <screen x="0" y="23" width="1440" height="838" />
     </state>
-    <state x="549" y="183" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.23.1440.838@0.23.1440.838" timestamp="1595003535995" />
+    <state x="549" y="183" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.23.1440.838@0.23.1440.838" timestamp="1595058850047" />
     <state x="508" y="363" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1594916776781">
       <screen x="0" y="23" width="1440" height="838" />
     </state>
