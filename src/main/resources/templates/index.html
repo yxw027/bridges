@@ -18,8 +18,8 @@
                     <div class="page-info">
                         <nav aria-label="breadcrumb">
                             <ol class="breadcrumb">
-                                <li class="breadcrumb-item"><a href="#">Apps</a></li>
-                                <li class="breadcrumb-item active" aria-current="page">Dashboard</li>
+                                <li class="breadcrumb-item"><a href="#">Contents</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">Monitor</li>
                             </ol>
                         </nav>
                         <div class="page-options">
@@ -240,6 +240,14 @@
         </div>
 
         <th:block th:replace="_fragment :: script"></th:block>
-
+        <script src="../static/plugins/jquery-sparkline/jquery.sparkline.min.js" th:src="@{/plugins/jquery-sparkline/jquery.sparkline.min.js}"></script>
+        <script src="../static/plugins/apexcharts/dist/apexcharts.min.js" th:src="@{/plugins/apexcharts/dist/apexcharts.min.js}"></script>
+        <script src="../static/plugins/blockui/jquery.blockUI.js" th:src="@{/plugins/blockui/jquery.blockUI.js}"></script>
+        <script src="../static/plugins/flot/jquery.flot.min.js" th:src="@{/plugins/flot/jquery.flot.min.js}"></script>
+        <script src="../static/plugins/flot/jquery.flot.time.min.js" th:src="@{/plugins/flot/jquery.flot.time.min.js}"></script>
+        <script src="../static/plugins/flot/jquery.flot.symbol.min.js" th:src="@{/plugins/flot/jquery.flot.symbol.min.js}"></script>
+        <script src="../static/plugins/flot/jquery.flot.resize.min.js" th:src="@{/plugins/flot/jquery.flot.resize.min.js}"></script>
+        <script src="../static/plugins/flot/jquery.flot.tooltip.min.js" th:src="@{/plugins/flot/jquery.flot.tooltip.min.js}"></script>
+        <script src="../static/js/pages/dashboard.js" th:src="@{/js/pages/dashboard.js}"></script>
     </body>
 </html>

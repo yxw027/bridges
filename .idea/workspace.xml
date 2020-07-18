@@ -2305,7 +2305,40 @@
       <change afterPath="$PROJECT_DIR$/src/main/resources/static/plugins/treejs/themes/default/style.min.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/resources/static/plugins/treejs/themes/default/throbber.gif" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hust/be/controller/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hust/be/controller/IndexController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/_fragment.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/_fragment.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/charts.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/charts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/demo/calendar.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/calendar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/demo/extended-blockui.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/demo/extended-blockui.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/demo/extended-datatables.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/demo/extended-datatables.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/demo/extended-select2.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/demo/extended-select2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/demo/extended-session.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/demo/extended-session.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/demo/extended-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/demo/extended-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/demo/file-manager.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/demo/file-manager.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/demo/forms.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/demo/forms.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/demo/mailbox.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/demo/mailbox.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/demo/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/demo/styles-code.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/demo/styles-code.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/demo/styles-icons.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/demo/styles-icons.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/demo/styles-tables.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/demo/styles-tables.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/demo/styles-typography.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/demo/styles-typography.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/demo/todo.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/demo/todo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/demo/ui-alerts.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/demo/ui-alerts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/demo/ui-badge.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/demo/ui-badge.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/demo/ui-breadcrumb.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/demo/ui-breadcrumb.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/demo/ui-buttons.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/demo/ui-buttons.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/demo/ui-card.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/demo/ui-card.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/demo/ui-collapse.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/demo/ui-collapse.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/demo/ui-dropdowns.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/demo/ui-dropdowns.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/demo/ui-list-group.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/demo/ui-list-group.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/demo/ui-modal.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/demo/ui-modal.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/demo/ui-pagination.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/demo/ui-pagination.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/demo/ui-popovers.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/demo/ui-popovers.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/demo/ui-progress.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/demo/ui-progress.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/demo/ui-spinners.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/demo/ui-spinners.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/demo/ui-toast.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/demo/ui-toast.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/demo/ui-tooltips.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/demo/ui-tooltips.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -2363,17 +2396,17 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/resources/templates" />
-      <recent name="$PROJECT_DIR$/src/main/resources/templates/error" />
-      <recent name="$PROJECT_DIR$/src/main/resources/templates/demo" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/hust/be/entity" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.hust.be.utils" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/resources" />
-      <recent name="$PROJECT_DIR$/src/main/java/com/hust/be/entity" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/templates" />
+      <recent name="$PROJECT_DIR$/src/main/resources/templates/error" />
+      <recent name="$PROJECT_DIR$/src/main/resources/templates/demo" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.BeApplication">
@@ -2416,6 +2449,8 @@
       <workItem from="1595004764802" duration="303000" />
       <workItem from="1595034407592" duration="17467000" />
       <workItem from="1595062495263" duration="195000" />
+      <workItem from="1595062713080" duration="6036000" />
+      <workItem from="1595084374164" duration="704000" />
     </task>
     <task id="LOCAL-00001" summary="copy entity from old project.">
       <created>1594918225681</created>
@@ -2438,7 +2473,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595059253867</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="readme更新">
+      <created>1595062931596</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1595062931596</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -2460,7 +2502,8 @@
     <MESSAGE value="copy entity from old project." />
     <MESSAGE value="add connect template." />
     <MESSAGE value="thymeleaf模板定制页面，用户登录注销，页面跳转。" />
-    <option name="LAST_COMMIT_MESSAGE" value="thymeleaf模板定制页面，用户登录注销，页面跳转。" />
+    <MESSAGE value="readme更新" />
+    <option name="LAST_COMMIT_MESSAGE" value="readme更新" />
   </component>
   <component name="WindowStateProjectService">
     <state x="533" y="155" key="#com.intellij.ide.util.MemberChooser" timestamp="1595053474033">
@@ -2475,42 +2518,42 @@
       <screen x="0" y="23" width="1440" height="838" />
     </state>
     <state x="458" y="196" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.838@0.23.1440.838" timestamp="1595053589536" />
-    <state x="0" y="23" width="1440" height="838" key="CommitChangelistDialog2" timestamp="1595059249864">
+    <state x="0" y="23" width="1440" height="838" key="CommitChangelistDialog2" timestamp="1595062928457">
       <screen x="0" y="23" width="1440" height="838" />
     </state>
-    <state x="0" y="23" width="1440" height="838" key="CommitChangelistDialog2/0.23.1440.838@0.23.1440.838" timestamp="1595059249864" />
-    <state width="1398" height="411" key="GridCell.Tab.0.bottom" timestamp="1595058948947">
+    <state x="0" y="23" width="1440" height="838" key="CommitChangelistDialog2/0.23.1440.838@0.23.1440.838" timestamp="1595062928457" />
+    <state width="1398" height="411" key="GridCell.Tab.0.bottom" timestamp="1595085026139">
       <screen x="0" y="23" width="1440" height="838" />
     </state>
-    <state width="1398" height="411" key="GridCell.Tab.0.bottom/0.23.1440.838@0.23.1440.838" timestamp="1595058948947" />
-    <state width="1398" height="411" key="GridCell.Tab.0.center" timestamp="1595058948946">
+    <state width="1398" height="411" key="GridCell.Tab.0.bottom/0.23.1440.838@0.23.1440.838" timestamp="1595085026139" />
+    <state width="1398" height="411" key="GridCell.Tab.0.center" timestamp="1595085026137">
       <screen x="0" y="23" width="1440" height="838" />
     </state>
-    <state width="1398" height="411" key="GridCell.Tab.0.center/0.23.1440.838@0.23.1440.838" timestamp="1595058948945" />
-    <state width="1398" height="411" key="GridCell.Tab.0.left" timestamp="1595058948945">
+    <state width="1398" height="411" key="GridCell.Tab.0.center/0.23.1440.838@0.23.1440.838" timestamp="1595085026137" />
+    <state width="1398" height="411" key="GridCell.Tab.0.left" timestamp="1595085026136">
       <screen x="0" y="23" width="1440" height="838" />
     </state>
-    <state width="1398" height="411" key="GridCell.Tab.0.left/0.23.1440.838@0.23.1440.838" timestamp="1595058948945" />
-    <state width="1398" height="411" key="GridCell.Tab.0.right" timestamp="1595058948947">
+    <state width="1398" height="411" key="GridCell.Tab.0.left/0.23.1440.838@0.23.1440.838" timestamp="1595085026136" />
+    <state width="1398" height="411" key="GridCell.Tab.0.right" timestamp="1595085026138">
       <screen x="0" y="23" width="1440" height="838" />
     </state>
-    <state width="1398" height="411" key="GridCell.Tab.0.right/0.23.1440.838@0.23.1440.838" timestamp="1595058948947" />
-    <state width="1398" height="411" key="GridCell.Tab.1.bottom" timestamp="1595058948949">
+    <state width="1398" height="411" key="GridCell.Tab.0.right/0.23.1440.838@0.23.1440.838" timestamp="1595085026138" />
+    <state width="1398" height="411" key="GridCell.Tab.1.bottom" timestamp="1595085026140">
       <screen x="0" y="23" width="1440" height="838" />
     </state>
-    <state width="1398" height="411" key="GridCell.Tab.1.bottom/0.23.1440.838@0.23.1440.838" timestamp="1595058948949" />
-    <state width="1398" height="411" key="GridCell.Tab.1.center" timestamp="1595058948948">
+    <state width="1398" height="411" key="GridCell.Tab.1.bottom/0.23.1440.838@0.23.1440.838" timestamp="1595085026140" />
+    <state width="1398" height="411" key="GridCell.Tab.1.center" timestamp="1595085026140">
       <screen x="0" y="23" width="1440" height="838" />
     </state>
-    <state width="1398" height="411" key="GridCell.Tab.1.center/0.23.1440.838@0.23.1440.838" timestamp="1595058948948" />
-    <state width="1398" height="411" key="GridCell.Tab.1.left" timestamp="1595058948948">
+    <state width="1398" height="411" key="GridCell.Tab.1.center/0.23.1440.838@0.23.1440.838" timestamp="1595085026140" />
+    <state width="1398" height="411" key="GridCell.Tab.1.left" timestamp="1595085026139">
       <screen x="0" y="23" width="1440" height="838" />
     </state>
-    <state width="1398" height="411" key="GridCell.Tab.1.left/0.23.1440.838@0.23.1440.838" timestamp="1595058948948" />
-    <state width="1398" height="411" key="GridCell.Tab.1.right" timestamp="1595058948948">
+    <state width="1398" height="411" key="GridCell.Tab.1.left/0.23.1440.838@0.23.1440.838" timestamp="1595085026139" />
+    <state width="1398" height="411" key="GridCell.Tab.1.right" timestamp="1595085026140">
       <screen x="0" y="23" width="1440" height="838" />
     </state>
-    <state width="1398" height="411" key="GridCell.Tab.1.right/0.23.1440.838@0.23.1440.838" timestamp="1595058948948" />
+    <state width="1398" height="411" key="GridCell.Tab.1.right/0.23.1440.838@0.23.1440.838" timestamp="1595085026140" />
     <state x="258" y="104" key="Maven.ArtifactSearchDialog" timestamp="1594917865433">
       <screen x="0" y="23" width="1440" height="838" />
     </state>

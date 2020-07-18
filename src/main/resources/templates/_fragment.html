@@ -19,6 +19,10 @@
         <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
         <link href="../static/plugins/bootstrap/css/bootstrap.min.css" th:href="@{/plugins/bootstrap/css/bootstrap.min.css}" rel="stylesheet">
         <link href="../static/plugins/font-awesome/css/all.min.css" th:href="@{/plugins/font-awesome/css/all.min.css}" rel="stylesheet">
+        <link href="../static/plugins/fullcalendar/packages/core/main.min.css" th:href="@{/plugins/fullcalendar/packages/core/main.min.css}" rel="stylesheet">
+        <link href="../static/plugins/fullcalendar/packages/daygrid/main.min.css" th:href="@{/plugins/fullcalendar/packages/daygrid/main.min.css}" rel="stylesheet">
+        <link href="../static/plugins/fullcalendar/packages/timegrid/main.min.css" th:href="@{/plugins/fullcalendar/packages/timegrid/main.min.css}" rel="stylesheet">
+        <link href="../static/plugins/fullcalendar/packages/bootstrap//main.min.css" th:href="@{/plugins/fullcalendar/packages/bootstrap//main.min.css}" rel="stylesheet">
 
 
         <!-- Theme Styles -->
@@ -48,43 +52,50 @@
                 <div class="page-sidebar-inner slimscroll">
                     <ul class="accordion-menu">
                         <li class="sidebar-title">
-                            Apps
+                            Contents
                         </li>
                         <li th:class="${n==1} ? 'active-page'">
-                            <a href="index.html" class="active"><i class="material-icons-outlined">dashboard</i>Dashboard</a>
+                            <a href="#" th:href="@{/monitor}" class="active"><i class="material-icons-outlined">dashboard</i>Monitor</a>
                         </li>
                         <li th:class="${n==2} ? 'active-page'">
-                            <a href="demo/mailbox.html"><i class="material-icons-outlined">inbox</i>Mailbox</a>
+                            <a href="#" th:href="@{/calendar}"><i class="material-icons-outlined">calendar_today</i>Calendar</a>
                         </li>
                         <li th:class="${n==3} ? 'active-page'">
-                            <a href="demo/profile.html"><i class="material-icons-outlined">account_circle</i>Profile</a>
-                        </li>
-                        <li th:class="${n==4} ? 'active-page'">
-                            <a href="demo/file-manager.html"><i class="material-icons">cloud_queue</i>File Manager</a>
-                        </li>
-                        <li th:class="${n==5} ? 'active-page'">
-                            <a href="demo/calendar.html"><i class="material-icons-outlined">calendar_today</i>Calendar</a>
-                        </li>
-                        <li th:class="${n==6} ? 'active-page'">
-                            <a href="demo/todo.html"><i class="material-icons">done</i>Todo</a>
+                            <a href="#" th:href="@{/info}"><i class="fas fa-info-circle"></i>Info</a>
                         </li>
                         <li class="sidebar-title">
-                            UIs
+                            Maintain
                         </li>
                         <li>
-                            <a href="#"><i class="material-icons">text_format</i>Styles<i class="material-icons has-sub-menu">add</i></a>
+                            <a href="#"><i class="fas fa-users"></i>User<i class="material-icons has-sub-menu">add</i></a>
                             <ul class="sub-menu">
                                 <li>
-                                    <a href="demo/styles-typography.html">Typography</a>
+                                    <a href="#" th:class="${n == 4} ? 'active'">User List</a>
                                 </li>
                                 <li>
-                                    <a href="demo/styles-code.html">Code</a>
+                                    <a href="#" th:class="${n == 5} ? 'active'">Role List</a>
                                 </li>
                                 <li>
-                                    <a href="demo/styles-tables.html">Tables</a>
+                                    <a href="#" th:class="${n == 6} ? 'active'">Permission List</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fas fa-road"></i>Bridge<i class="material-icons has-sub-menu">add</i></a>
+                            <ul class="sub-menu">
+                                <li>
+                                    <a href="#" th:class="${n == 7} ? 'active'">Bridge List</a>
                                 </li>
                                 <li>
-                                    <a href="demo/styles-icons.html">Icons</a>
+                                    <a href="#" th:class="${n == 8} ? 'active'">Sensor List</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fas fa-exclamation-triangle"></i>Alert<i class="material-icons has-sub-menu">add</i></a>
+                            <ul class="sub-menu">
+                                <li>
+                                    <a href="#" th:class="${n == 9} ? 'active'">Alert List</a>
                                 </li>
                             </ul>
                         </li>
@@ -161,22 +172,13 @@
 
 
         <th:block th:fragment="script">
-        <!-- Javascripts -->
-        <script src="../static/plugins/jquery/jquery-3.4.1.min.js" th:src="@{/plugins/jquery/jquery-3.4.1.min.js}"></script>
-        <script src="../static/plugins/bootstrap/popper.min.js" th:src="@{/plugins/bootstrap/popper.min.js}"></script>
-        <script src="../static/plugins/bootstrap/js/bootstrap.min.js" th:src="@{/plugins/bootstrap/js/bootstrap.min.js}"></script>
-        <script src="../static/plugins/jquery-slimscroll/jquery.slimscroll.min.js" th:src="@{/plugins/jquery-slimscroll/jquery.slimscroll.min.js}"></script>
-        <script src="../static/plugins/jquery-sparkline/jquery.sparkline.min.js" th:src="@{/plugins/jquery-sparkline/jquery.sparkline.min.js}"></script>
-        <script src="../static/plugins/apexcharts/dist/apexcharts.min.js" th:src="@{/plugins/apexcharts/dist/apexcharts.min.js}"></script>
-        <script src="../static/plugins/blockui/jquery.blockUI.js" th:src="@{/plugins/blockui/jquery.blockUI.js}"></script>
-        <script src="../static/plugins/flot/jquery.flot.min.js" th:src="@{/plugins/flot/jquery.flot.min.js}"></script>
-        <script src="../static/plugins/flot/jquery.flot.time.min.js" th:src="@{/plugins/flot/jquery.flot.time.min.js}"></script>
-        <script src="../static/plugins/flot/jquery.flot.symbol.min.js" th:src="@{/plugins/flot/jquery.flot.symbol.min.js}"></script>
-        <script src="../static/plugins/flot/jquery.flot.resize.min.js" th:src="@{/plugins/flot/jquery.flot.resize.min.js}"></script>
-        <script src="../static/plugins/flot/jquery.flot.tooltip.min.js" th:src="@{/plugins/flot/jquery.flot.tooltip.min.js}"></script>
-        <script src="../static/js/connect.min.js" th:src="@{/js/connect.min.js}"></script>
-        <script src="../static/js/pages/dashboard.js" th:src="@{/js/pages/dashboard.js}"></script>
-    </th:block>
+            <!-- Javascripts -->
+            <script src="../static/plugins/jquery/jquery-3.4.1.min.js" th:src="@{/plugins/jquery/jquery-3.4.1.min.js}"></script>
+            <script src="../static/plugins/bootstrap/popper.min.js" th:src="@{/plugins/bootstrap/popper.min.js}"></script>
+            <script src="../static/plugins/bootstrap/js/bootstrap.min.js" th:src="@{/plugins/bootstrap/js/bootstrap.min.js}"></script>
+            <script src="../static/plugins/jquery-slimscroll/jquery.slimscroll.min.js" th:src="@{/plugins/jquery-slimscroll/jquery.slimscroll.min.js}"></script>
+            <script src="../static/js/connect.min.js" th:src="@{/js/connect.min.js}"></script>
+        </th:block>
 
     </body>
 </html>

@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+    <head th:replace="_fragment :: head(~{::title})">
+        <title>Bridges | Info</title>
+    </head>
+
+    <body class="app-profile">
+
+        <div th:replace="_fragment :: loader" class="loader"></div>
+        <div class="connect-container align-content-stretch d-flex flex-wrap">
+            <nav th:replace="_fragment :: menu(3)"  class="page-sidebar"></nav>
+            <div class="page-container">
+                <div th:replace="_fragment :: header" class="page-header"></div>
+
+                <!--核心内容-->
+                <div class="page-content">
+                    <div class="main-wrapper">
+                        <div class="profile-header">
+                            <div class="row">
+                                <div class="col">
+                                    <div class="profile-img">
+                                        <img src="../static/images/avatars/profile-image-2.png" th:src="@{/images/avatars/profile-image-2.png}">
+                                    </div>
+                                    <div class="profile-name">
+                                        <h3>Nancy Moore</h3>
+                                        <span>Member of Envato</span>
+                                    </div>
+                                    <div class="profile-menu">
+                                        <ul>
+                                            <li>
+                                                <a href="#">Feed</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">About</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Friends</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Photos</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Videos</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Music</a>
+                                            </li>
+                                        </ul>
+                                        <div class="profile-status">
+                                            <i class="active-now"></i> Active now
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="profile-content">
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <div class="post">
+                                                <div class="post-header">
+                                                    <img src="../static/images/avatars/profile-image-3.jpg" th:src="@{/images/avatars/profile-image-3.jpg}">
+                                                    <div class="post-info">
+                                                        <span class="post-author">Riley Beach</span><br>
+                                                        <span class="post-date">3hrs</span>
+                                                    </div>
+                                                    <div class="post-header-actions">
+                                                        <a href="#"><i class="fas fa-ellipsis-h"></i></a>
+                                                    </div>
+                                                </div>
+                                                <div class="post-body">
+                                                    <p>Proin eu fringilla dui. Pellentesque mattis lobortis mauris eu tincidunt. Maecenas hendrerit faucibus dolor, in commodo lectus mattis ac.</p>
+                                                    <img src="../static/images/post-1.jpg" th:src="@{/images/post-1.jpg}" class="post-image" alt="">
+                                                </div>
+                                                <div class="post-actions">
+                                                    <ul class="list-unstyled">
+                                                        <li>
+                                                            <a href="#" class="like-btn"><i class="far fa-heart"></i>Like</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#"><i class="far fa-comment"></i>Comment</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#"><i class="fas fa-share"></i>Share</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="post-comments">
+                                                    <div class="post-comm">
+                                                        <img src="../static/images/avatars/profile-image-2.png" th:src="@{/images/avatars/profile-image-2.png}" class="comment-img">
+                                                        <div class="comment-container">
+                                                            <span class="comment-author">
+                                                                Sonny Rosas
+                                                                <small class="comment-date">5min</small>
+                                                            </span>
+                                                        </div>
+                                                        <span class="comment-text">
+                                                            Mauris ultrices convallis massa, nec facilisis enim interdum ac.
+                                                        </span>
+                                                    </div>
+                                                    <div class="post-comm">
+                                                        <img src="../static/images/avatars/profile-image.png" th:src="@{/images/avatars/profile-image.png}" class="comment-img">
+                                                        <div class="comment-container">
+                                                            <span class="comment-author">
+                                                                Jacob Lee
+                                                                <small class="comment-date">27min</small>
+                                                            </span>
+                                                        </div>
+                                                        <span class="comment-text">
+                                                            Cras tincidunt quam nisl, vitae aliquet enim pharetra at. Nunc varius bibendum turpis, vitae ultrices tortor facilisis ac.
+                                                        </span>
+                                                    </div>
+                                                    <div class="new-comment">
+                                                        <form action="javascript: void(0)">
+                                                            <div class="input-group">
+                                                                <input type="text" name="comment" class="form-control search-input" placeholder="Type something...">
+                                                                <div class="input-group-append">
+                                                                    <button class="btn btn-secondary" type="button" id="button-addon1">Comment</button>
+                                                                </div>
+                                                            </div>
+                                                        </form>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <div class="post">
+                                                <div class="post-header">
+                                                    <img src="../static/images/avatars/profile-image.png" th:src="@{/images/avatars/profile-image.png}">
+                                                    <div class="post-info">
+                                                        <span class="post-author">Haydon Kenny</span><br>
+                                                        <span class="post-date">7hrs</span>
+                                                    </div>
+                                                    <div class="post-header-actions">
+                                                        <a href="#"><i class="fas fa-ellipsis-h"></i></a>
+                                                    </div>
+                                                </div>
+                                                <div class="post-body">
+                                                    <p>Praesent purus purus, varius ac mauris quis, scelerisque ornare massa. Nam volutpat lacinia lectus, vitae mattis nisl. Mauris ultrices convallis massa, nec facilisis enim interdum ac. Suspendisse hendrerit risus nec nisi dictum efficitur. Pellentesque aliquet in justo id lobortis.</p>
+                                                </div>
+                                                <div class="post-actions">
+                                                    <ul class="list-unstyled">
+                                                        <li>
+                                                            <a href="#" class="like-btn"><i class="far fa-heart"></i>Like</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#"><i class="far fa-comment"></i>Comment</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#"><i class="fas fa-share"></i>Share</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="post-comments">
+                                                    <div class="post-comm">
+                                                        <img src="../static/images/avatars/profile-image-2.png" th:src="@{/images/avatars/profile-image-2.png}" class="comment-img">
+                                                        <div class="comment-container">
+                                                            <span class="comment-author">
+                                                                Riley Beach
+                                                                <small class="comment-date">1hr</small>
+                                                            </span>
+                                                        </div>
+                                                        <span class="comment-text">
+                                                            Fusce mattis fermentum quam non porta...
+                                                        </span>
+                                                    </div>
+                                                    <div class="new-comment">
+                                                        <form action="javascript: void(0)">
+                                                            <div class="input-group">
+                                                                <input type="text" name="comment" class="form-control search-input" placeholder="Type something...">
+                                                                <div class="input-group-append">
+                                                                    <button class="btn btn-secondary" type="button" id="button-addon2">Comment</button>
+                                                                </div>
+                                                            </div>
+                                                        </form>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <h5 class="card-title">About</h5>
+                                            <p>Quisque vel tellus sit amet quam efficitur sagittis. Fusce aliquam pulvinar suscipit.</p>
+                                            <ul class="list-unstyled profile-about-list">
+                                                <li><i class="material-icons">school</i><span>Studied Mechanical Engineering at <a href="#">Carnegie Mellon University</a></span></li>
+                                                <li><i class="material-icons">work</i><span>Former manager at <a href="#">Stacks</a></span></li>
+                                                <li><i class="material-icons">my_location</i><span>From <a href="#">Boston, Massachusetts</a></span></li>
+                                                <li><i class="material-icons">rss_feed</i><span>Followed by 716 people</span></li>
+                                                <li>
+                                                    <button class="btn btn-block btn-primary m-t-lg">Follow</button>
+                                                    <button class="btn btn-block btn-secondary m-t-lg">Message</button>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Contact Info</h5>
+                                            <ul class="list-unstyled profile-about-list">
+                                                <li><i class="material-icons">mail_outline</i><span>jay.morton@gmail.com</span></li>
+                                                <li><i class="material-icons">home</i><span>Lives in <a href="#">San Francisco, CA</a></span></li>
+                                                <li><i class="material-icons">local_phone</i><span>+1 (678) 290 1680</span></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div th:replace="_fragment :: footer"></div>
+            </div>
+
+            <th:block th:replace="_fragment :: script"></th:block>
+    </body>
+</html>

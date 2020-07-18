@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+    <head th:replace="_fragment :: head(~{::title})">
+        <title>Bridges | Calendar</title>
+    </head>
+
+    <body>
+
+        <div th:replace="_fragment :: loader" class="loader"></div>
+        <div class="connect-container align-content-stretch d-flex flex-wrap">
+            <nav th:replace="_fragment :: menu(2)"  class="page-sidebar"></nav>
+            <div class="page-container">
+                <div th:replace="_fragment :: header" class="page-header"></div>
+
+                <!--核心内容-->
+                <div class="page-content">
+                    <div class="page-info">
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="#">Contents</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">Calendar</li>
+                            </ol>
+                        </nav>
+                        <div class="page-options">
+                            <a href="#" class="btn btn-primary">Add Event</a>
+                        </div>
+                    </div>
+                    <div class="main-wrapper">
+                        <div class="row">
+                            <div class="col">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <div id='calendar'></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div th:replace="_fragment :: footer"></div>
+            </div>
+        </div>
+
+        <div class="mailbox-compose-overlay"></div>
+        <div class="mailbox-item-overlay"></div>
+
+        <!-- Javascripts -->
+        <th:block th:replace="_fragment :: script"></th:block>
+        <script src="../static/plugins/fullcalendar/packages/core/main.min.js" th:src="@{/plugins/fullcalendar/packages/core/main.min.js}"></script>
+        <script src="../static/plugins/fullcalendar/packages/interaction//main.min.js" th:src="@{/plugins/fullcalendar/packages/interaction//main.min.js}"></script>
+        <script src="../static/plugins/fullcalendar/packages/daygrid/main.min.js" th:src="@{/plugins/fullcalendar/packages/daygrid/main.min.js}"></script>
+        <script src="../static/plugins/fullcalendar/packages/timegrid/main.min.js" th:src="@{/plugins/fullcalendar/packages/timegrid/main.min.js}"></script>
+        <script src="../static/plugins/fullcalendar/packages/bootstrap//main.min.js" th:src="@{/plugins/fullcalendar/packages/bootstrap//main.min.js}"></script>
+        <script src="../static/js/pages/calendar.js" th:src="@{/js/pages/calendar.js}"></script>
+
+    </body>
+</html>
