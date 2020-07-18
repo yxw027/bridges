@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+    <head th:replace="_fragment :: head(~{::title})">
+        <title>Bridges | 500</title>
+    </head>
+
+    <body class="error-page error-500">
+
+        <div th:replace="_fragment :: loader" class="loader"></div>
+        <div class="connect-container align-content-stretch d-flex flex-wrap">
+            <div class="container d-flex align-content-stretch flex-wrap">
+                <div class="row">
+                    <div class="col d-flex align-content-stretch flex-wrap"">
+                        <div class="error-page-image"></div>
+                        <div class="error-page-text">
+                            <h3>Internal Server Error</h3>
+                            <p>Ooopss... Something went wrong.<br>Try refreshing the page or contact our help center.</p>       
+                            <div class="error-page-actions">
+                                <a href="#" class="btn btn-secondary">Help Center</a>
+                                <a href="../index.html" th:href="@{/}" class="btn btn-primary">Homepage</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <th:block th:replace="_fragment :: script"></th:block>
+    </body>
+</html>
